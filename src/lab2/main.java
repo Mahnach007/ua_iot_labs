@@ -21,6 +21,25 @@ public class main extends CallCenterEquipment{
 	     System.out.println(phone);
 	     System.out.println(monitor);
 
+	     ArrayList<CallCenterEquipment> items = new ArrayList<CallCenterEquipment>();
+
+			items.add(computer);
+			items.add(phone);
+			items.add(monitor);
+			System.out.println(items);
+			System.out.println("");
+			sortByMark(items);
+			System.out.println(items);
+			System.out.println("");
+			Collections.reverse(items);
+			System.out.print(items);
+
+			CallCenterEquipment p = findByPrice(13, items);
+			System.out.println("");
+			System.out.println(p.getMark());
+			CallCenterEquipment p2 = findByType("Iphone", items);
+			System.out.println("");
+			System.out.println(p2.getMark());
 	  }
 
 	
