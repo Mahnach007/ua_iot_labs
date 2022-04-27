@@ -11,7 +11,7 @@ public class main extends CallCenterEquipment{
 		super(price, type, mark);
 	}
 
-	public static void main (String[] agrs) throws Exception  {
+	public static void Main (String[] agrs) throws Exception  {
 	     
 	     Computer computer = new Computer(16, "dick", "Sumsung", "slut", "Rtx 3090");
 	     Phone phone = new Phone(13, "Iphone", "Xiaomi", 13, "Rtx 3090");
